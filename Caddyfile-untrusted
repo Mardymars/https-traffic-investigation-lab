@@ -1,0 +1,17 @@
+{
+    auto_https disable_redirects
+    skip_install_trust
+    storage file_system C:/Lab/HTTPS/untrusted-storage
+    servers {
+        protocols h1 h2
+    }
+}
+
+https://localhost:443 {
+    bind 127.0.0.1 [::1]
+    tls internal
+    respond "Untrusted HTTPS lab." 200
+    log {
+        output file access-untrusted.json
+    }
+}

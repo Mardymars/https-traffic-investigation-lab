@@ -1,0 +1,17 @@
+{
+  "method": "Offline TLS 1.3 AEAD authentication and HTTP/2 frame decoding with locally supplied session secrets",
+  "scope": "Selected TCP connection, client port 52951 to server port 443",
+  "tls_cipher_suite": "TLS_AES_128_GCM_SHA256",
+  "authenticated_client_records": 5,
+  "authenticated_server_records": 9,
+  "client_http2_connection_preface_verified": true,
+  "response_stream": 3,
+  "response_status": 200,
+  "response_body": "HTTPS lab is working.",
+  "response_body_bytes": 21,
+  "response_body_sha256": "04be7c9282bd1f7bbcbb2c1cf571b85face8d363928e09cd2e4cfd7d8a6a0049",
+  "response_end_stream": true,
+  "request_path_source": "Wireshark GUI screenshot and correlated Caddy log; HPACK request path not independently decoded by this helper",
+  "secret_values_exported": false,
+  "secrets_embedded_in_captures": false
+}

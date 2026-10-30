@@ -1,0 +1,53 @@
+[
+  {
+    "file": "01-success.pcapng",
+    "original_packets": 996,
+    "selected_packets": 31,
+    "client_port": 52203,
+    "server_port": 443,
+    "sni": "localhost",
+    "cipher_suite": "0x1301",
+    "selected_version": "0x304",
+    "embedded_secrets_blocks": 0,
+    "annotations_removed": true,
+    "original_sha256": "8f2ab635cc2d27ff04a95991ed44c597dcfaa293310b459876e491614333262f",
+    "scoped_sha256": "fe6bde38a8f0e580b5604e2efac699d20a236db23bf287fe17546c22f0409d06",
+    "scoped_bytes": 7924,
+    "last_original_frame": 970,
+    "last_tcp_flags": "0x10"
+  },
+  {
+    "file": "02-trust-failure.pcapng",
+    "original_packets": 409,
+    "selected_packets": 10,
+    "client_port": 54254,
+    "server_port": 443,
+    "sni": "localhost",
+    "cipher_suite": "0x1301",
+    "selected_version": "0x304",
+    "embedded_secrets_blocks": 0,
+    "annotations_removed": true,
+    "original_sha256": "b5694e20a1a64b48c2337e8b11fa795651a40d45464c1726e3799c46102c9adb",
+    "scoped_sha256": "7412aa05899c9123b947cfeecc748c9a6e24af7cb5d6f6e91d65caa9cca3ed40",
+    "scoped_bytes": 5272,
+    "last_original_frame": 77,
+    "last_tcp_flags": "0x14"
+  },
+  {
+    "file": "03-decryption.pcapng",
+    "original_packets": 678,
+    "selected_packets": 31,
+    "client_port": 52951,
+    "server_port": 443,
+    "sni": "localhost",
+    "cipher_suite": "0x1301",
+    "selected_version": "0x304",
+    "embedded_secrets_blocks": 0,
+    "annotations_removed": true,
+    "original_sha256": "daa2079bd4805cbeb08bc65ed0f22745b8f84cfb139b9d6249b50d4d5a6759eb",
+    "scoped_sha256": "4da9bfbdc5405bd7e0f2b4f354ca85eb4bfa6cb2464bb3e45baa406bc59d2752",
+    "scoped_bytes": 7800,
+    "last_original_frame": 652,
+    "last_tcp_flags": "0x10"
+  }
+]

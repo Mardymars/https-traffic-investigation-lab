@@ -1,0 +1,46 @@
+{
+  "level": "info",
+  "ts": 1793229747.803748,
+  "logger": "http.log.access.log0",
+  "msg": "handled request",
+  "request": {
+    "remote_ip": "127.0.0.1",
+    "remote_port": "52951",
+    "client_ip": "127.0.0.1",
+    "proto": "HTTP/2.0",
+    "method": "GET",
+    "host": "localhost",
+    "uri": "/?case=decryption-03",
+    "headers": {
+      "Accept": ["text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"],
+      "Accept-Language": ["en-US,en;q=0.9"],
+      "Sec-Fetch-Site": ["none"],
+      "User-Agent": ["Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:159.0) Gecko/20100101 Firefox/159.0"],
+      "Accept-Encoding": ["gzip, deflate, br, zstd"],
+      "Sec-Gpc": ["1"],
+      "Upgrade-Insecure-Requests": ["1"],
+      "Priority": ["u=0, i"],
+      "Te": ["trailers"],
+      "Sec-Fetch-Dest": ["document"],
+      "Sec-Fetch-Mode": ["navigate"],
+      "Sec-Fetch-User": ["?1"]
+    },
+    "tls": {
+      "resumed": false,
+      "version": 772,
+      "cipher_suite": 4865,
+      "proto": "h2",
+      "server_name": "localhost",
+      "ech": false
+    }
+  },
+  "bytes_read": 0,
+  "user_id": "",
+  "duration": 0.002398,
+  "size": 21,
+  "status": 200,
+  "resp_headers": {
+    "Server": ["Caddy"],
+    "Content-Type": ["text/plain; charset=utf-8"]
+  }
+}

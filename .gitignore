@@ -1,0 +1,8 @@
+caddy.exe
+untrusted-storage/
+*.key
+*.keylog
+*secrets*.log
+__pycache__/
+evidence/incoming/
+.analysis-tools/

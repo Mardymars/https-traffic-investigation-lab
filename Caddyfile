@@ -1,0 +1,15 @@
+{
+    auto_https disable_redirects
+    servers {
+        protocols h1 h2
+    }
+}
+
+https://localhost:443 {
+    bind 127.0.0.1 [::1]
+    tls internal
+    respond "HTTPS lab is working." 200
+    log {
+        output file access.json
+    }
+}
